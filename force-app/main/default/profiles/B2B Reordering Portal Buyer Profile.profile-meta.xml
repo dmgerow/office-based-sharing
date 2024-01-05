@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <custom>true</custom>
+    <layoutAssignments>
+        <layout>Job__c-Job Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Office__c-Office Layout</layout>
+    </layoutAssignments>
+    <tabVisibilities>
+        <tab>Job__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Office__c</tab>
+        <visibility>Hidden</visibility>
+    </tabVisibilities>
+    <userLicense>External Apps Login</userLicense>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>EnableNotifications</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>SelectFilesFromSalesforce</name>
+    </userPermissions>
+</Profile>
